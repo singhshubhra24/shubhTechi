@@ -1,0 +1,40 @@
+<template name="log">
+<div class="tab-content">
+ <div id="Login">
+      <h3>Login </h3>
+        <form id= "form1" action="#">
+          <div class="form-group">
+            <label for="first">First name:</label>
+
+         <input type="text" id="first" name="first" class="required">
+          </div>
+          <div class="form-group">
+            <label for="last">Last name:</label>
+            <input type="name" class="form-control" id="last" placeholder="Enter last name" name="last">
+          </div>
+          <div class="form-group">
+            <label for="contact">Contact number:</label>
+            <input type="text" class="form-control" id="contact" placeholder="Enter contact number" name="contact">
+          </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>                                                                   <div class="form-group">
+        <label for="my-datepicker">DateOfBirth:</label>
+        <input type="text" class="form-control" id="mydatepicker" placeholder="enter your dob" name="datepick">
+      </div>                                                                 <div class="form-group">
+          <label for="cin">CIN NUMBER:</label>
+          <input type="text" class="form-control" id="cin" placeholder="enter your 21 digit cin number" name="cin">
+        </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    <button type="submit" id="btn" >Submit</button>
+  </form>
+  </div>
+</div>
+</template>
